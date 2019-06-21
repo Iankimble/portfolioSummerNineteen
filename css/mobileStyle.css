@@ -1,0 +1,215 @@
+
+@media only screen and (max-width : 767px){
+
+    body{
+        display: grid;
+        grid-template-columns:auto;
+        grid-template-rows: auto auto auto auto auto; 
+        align-content: center;
+        font-family: 'Lato', sans-serif;
+        background-color: #9cc9c9;
+        margin: 0%;
+        }
+
+        #nameHeader{
+            font-size: 75px;
+            margin-left: 35px;
+            color: white;
+        }
+        
+        #titleHeader{  
+            line-height: 0%;
+            font-size: 35px;
+            margin-left: 35px;
+            color: white;
+        }
+
+        .subheaders{
+            color: #006666;
+            font-size: 50px;
+        }
+        
+        #externalLinks{
+            float: left;    
+        }
+        
+        #externalLinks li a{
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            padding: 25px 5px; 
+            font-size: 30px;
+        }
+
+        .heroImage #aboutButton{
+        color: #006666;
+        font-size: 30px;
+        margin-top: 150px;
+        margin-left: 30px;
+        padding: 5px;
+    }
+        
+        .infocontainer{
+            padding: 5px;
+            background-color: #006666;
+            border-radius: 10px;
+        }
+
+        .exIcons{
+            height: 55px;
+            width: 55px;
+            padding: 5px;
+        }
+
+    .heroImage{
+        height: 500px;
+        grid-column: 1;  
+        grid-row: 1;
+        line-height: 45%;
+        background-image: url("./assets/portfolioheroimagegreen.png");
+        background-size: 800px 400px;
+        background-repeat: no-repeat;
+    }
+
+    #aboutButton{
+        /*float: left;*/
+        margin-right: 220px;
+        background-color:#9cc9c9;
+        font-size:25px;
+        width: 300px;  
+    }
+
+    .projectCard{
+        display: inline-block;
+        grid-row: 2;
+        margin-top: 60px;
+    }
+    
+    .infocontainer{
+        height: 550px;
+        width:465px;
+        background-color: #006666;
+        border-radius: 10px;
+    }
+    
+    #thumbnail21{
+        padding: 25px;
+        height: 300px;
+        width: 300px;
+        border-radius: 10px;
+        opacity: 1;
+    }
+
+    #thumbnailfb{
+        padding: 25px;
+        height: 300px;
+        width: 300px;
+        border-radius: 10px;
+        opacity: 1;
+    }
+
+    #thumbnailbw{
+        padding: 25px;
+        height: 300px;    
+        width: 300px;
+        border-radius: 10px;
+        opacity: 1;
+    }
+
+
+    li{
+        list-style: none;
+        text-align: center;
+    }
+    
+    ul{
+        text-decoration: none; 
+    }
+
+    .projectCard a{
+        text-decoration: none;
+        font-size: 45px; 
+        color: white;
+    }
+    
+    .infotext{
+        color: white;
+        font-size: 30px;
+    }
+
+    .contact{
+        margin: 45px;
+        grid-column: 1;
+        grid-row: 4;
+    }
+    
+    .input{
+        width:550px;
+        height: 60px;
+        border: 2px solid #006666;
+        background-color: transparent;
+        margin-top: 20px;
+        font-size: 35px;
+    }
+    
+    
+    #subfield{
+        width: 555px;
+        height: 60px;
+        border: 2px solid #006666;
+        background-color: transparent;
+        color: grey;
+        font-size: 35px;
+    }
+
+    
+    #msgfield{
+        width: 550px;
+        height:225px;
+        border: 2px solid #006666;
+        background-color: transparent;
+        font-size: 35px;
+    }
+
+    
+    #formsub{
+        width: 550px;
+        height: 55px;
+        background-color: #006666;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 35px;
+    }
+    
+    #name1{
+        text-align: left;
+    }
+
+    li{
+        text-decoration: none;
+    }
+    
+    .headers{
+        text-align: center;
+    }
+    
+    #form{
+        text-align: center;
+    }
+
+        
+    .footer{
+        background-color:#006666;
+        grid-column: 1;
+        grid-row: 5;
+        height: 35px;
+        font-size: 30px;
+        color: white;
+        padding: 15px;
+    }
+    
+
+
+}

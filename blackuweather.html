@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ian Kimble | Designer</title>
+    <link rel="stylesheet" href="./css/desktopStyle/bwStyle.css">
+    <!--<link rel="stylesheet" href="./css/mobileStyle.css">-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="./script/script.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Lato:100,300&display=swap');
+    </style>
+</head>
+
+<body>
+    <!--Nav bar-->
+    <div class="nav">
+        <ul>
+            <li>
+                <a href="./index.html"> Ian Kimble | Designer</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- Hero/ Landing Image-->
+    <div id="heroImg">
+        <div class="heroCombo">
+            <img src="./css/assets/blackuweather_logo.png" id="bwLogo">
+            <p id="heroText"><b> Black-U-Weather</b><br> Weather applications that returns current forcast and expressive
+                gif.
+            </p>
+            <button class="extBtn" id="githubBw">Github</button>
+            <button class="extBtn" id="bwApp">Application</button>
+        </div>
+
+    </div>
+
+    <!--Summary-->
+    <div class="summaryContainer">
+        <div class="header">Summary</div>
+        <div class="caption">
+            During my time attending the University of Pennsylvania's Coding bootcamp, One of our assignments was to create an application
+            that uses two API's (application programming interface) simulataniously with one another. I wanted to design
+            something fun and entertaining but also practical.<br> Black-u-weather is a weather application that
+            searches American cities and returns the current weather for that location along with a gif that illustrates
+            the "feel" of the weather description.
+        </div>
+    </div>
+
+    <!--Tools and Technology-->
+    <div class="mainToolContainer">
+        <div class="header">Tools and Technologies</div>
+
+        <div id="ttContainer">
+
+            <div class="toolsSubContainer">
+                <div class="tool">
+                    <img src="./css/assets/photoshop.jpg" class="toolImg">
+                </div>
+            </div>
+
+            <div class="techSubContainer">
+                <div class="tech">
+                    <img src="./css/assets/html.png" class="techImg">
+                </div>
+
+                <div class="tech">
+                    <img src="./css/assets/css.png" class="techImg">
+                </div>
+
+                <div class="tech">
+                    <img src="./css/assets/javascript.png" class="techImg">
+                </div>
+
+                <div class="tech">
+                    <img src="./css/assets/openWeatherMap.png" class="techImg">
+                </div>
+
+                <div class="tech">
+                    <img src="./css/assets/giphyLogo.png" class="techImg">
+                </div>
+            </div>
+
+            <div class="caption">
+                The basis of this application is wrting logic in javascript to send requests and recieve responses from the open weather
+                API and the Giphy API.
+            </div>
+
+        </div>
+
+    </div>
+
+    <!--Concept-->
+    <div class="conceptContainer">
+        <div class="header">Concept</div>
+
+        <div id="subContent">
+
+            <div class="concept">
+                <img src="./css/assets/bwWireframe.jpg" class="wfimg">
+            </div>
+        </div>
+
+        <div class="caption">
+
+        </div>
+    </div>
+
+    <!-- Challenges and Solution-->
+    <div class="csContainer">
+        <div class="header">Challengs and solution</div>
+        <img src="./css/assets/bwcitySnip.png" class="bwSnip">
+        <img src="./css/assets/bwGiphySnip.png" class="bwSnip">
+        <div class="caption">
+            The difficulty in building this application was finding gifs that reflected a specific weather condition. Fortunately, the
+            Open Weather API has a finite list of weather descriptions. With the short list of descriptions, I resolved the
+            issue by creating two functions; One would request the weather information from Open Weahter and return the weather
+            data, specifically the weather description. The other would take the description and compare it to a series of
+            conditional statements that would return a set of specific gifs, so if the weather description returend "cloudy",
+            1 of 3 gifs that I felt conveyed the feeling of a cloudy day would be returned. and displayed along with the
+            temperature<br> Regrettably, the app is limited by the usage. Open weather requires a paid subscription
+            to use their weather data publically.
+        </div>
+    </div>
+
+    <!--Final Product-->
+    <div class="productContainer">
+        <div class="header">Final Product</div>
+        <img src="./css/assets/bwMobileProd.png" class="bwfin">
+        <img src="./css/assets/bwDesktopProd.png" class="bwfin">
+        <div class="caption">
+
+        </div>
+    </div>
+
+</body>

@@ -1,0 +1,149 @@
+body{
+    display: grid;
+    grid-template-columns:auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto; 
+    align-content: center;
+    font-family: 'Lato', sans-serif;
+    background-color: #9cc9c9;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    }
+
+    /*nav*/
+
+    .nav{
+        grid-column: 1 /span 2;
+        grid-row: 1;
+        background-color:#006666;
+        height: 75px;
+        font-size: 25px;
+        font-weight: bold;
+        margin: 5px;
+    
+    }
+    
+    li a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    li{
+        list-style: none;
+    }
+
+    .caption{
+        font-size: 25px;
+        margin: 25px;
+    }
+    
+/*header*/
+    .header{
+        font-size: 30px;
+        color: white;
+        font-weight: bolder;
+        background-color: #006666;
+        padding: 5px;
+    }
+    
+/*external buttons*/
+    .extBtn{
+        background-color: black;
+        margin-top: 0px;
+        color: white;
+        border: none;
+        margin-right: 30px;
+        font-size: 25px;
+        border-radius: 25px;
+        width: 175px;
+    }
+        
+    .extBtn:hover{
+        background-color: white;
+        color:black;
+        transition: 0.8s;
+    }
+
+#bwLogo{
+    height: 300px;
+    width: 300px;
+}
+
+#heroImg{
+    grid-column: 1 /span 2;
+    grid-row: 2;
+    background-color: white;
+}
+
+.heroCombo{
+    font-size: 20px;
+    margin: 20px;
+}
+
+.summaryContainer{
+    grid-column: 1 /span 2;
+    grid-row: 3;
+}
+
+.mainToolContainer{
+    grid-column: 1 /span 2;
+    grid-row: 4;
+    background-color: lightblue;
+}
+
+.tool{
+    display: inline-block;
+}
+
+.toolImg{
+    height: 150px;
+    width: 150px;
+    padding: 15px;
+}
+
+.tech{
+    display: inline-block;
+}
+
+.techImg{
+    height: 100px;
+    width: 100px;
+    padding: 15px;
+}
+
+.conceptContainer{
+    grid-column: 1 /span 2;
+    grid-row: 5;
+}
+
+.wfimg{
+    height: 400px;
+    width: 750px;
+    padding: 20px;
+}
+
+.assetContainer{
+    grid-column: 1 /span 2;
+    grid-row: 6;
+}
+
+.csContainer{
+    grid-column: 1 /span 2;
+    grid-row: 7;
+}
+
+.productContainer{
+    grid-column: 1 /span 2;
+    grid-row: 8;
+}
+
+.bwfin{
+    height: 400px;
+    width: 450px;
+    margin: 20px;
+}
+
+.bwSnip{
+    height:550px;
+    width: 550px;
+}

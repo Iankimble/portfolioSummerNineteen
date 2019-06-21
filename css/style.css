@@ -1,0 +1,219 @@
+body{
+display: grid;
+grid-template-columns:auto auto auto;
+grid-template-rows: auto auto auto auto auto; 
+align-content: center;
+font-family: 'Lato', sans-serif;
+background-color: #9cc9c9;
+margin: 0%;
+}
+
+#nameHeader{
+    font-size: 75px;
+    margin-left: 35px;
+    color: white;
+}
+
+.exIcons{
+    height: 85px;
+    width: 85px;
+    padding: 10px;
+}
+
+#titleHeader{  
+    line-height: 0%;
+    font-size: 35px;
+    margin-left: 35px;
+    color: white;
+}
+
+.heroImage{
+    height: 500px;
+    grid-column: 1 /span 3;  
+    grid-row: 1;
+    line-height: 45%;
+    background-image: url("./assets/portfolioheroimagegreen.png");
+    background-size: 1350px 600px;
+    background-repeat: no-repeat;
+}
+
+.subheaders{
+    color: #006666;
+}
+
+#externalLinks{
+    float: left;    
+}
+
+#externalLinks li a{
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    padding: 10px 10px; 
+}
+
+.infocontainer{
+    padding: 10px;
+    background-color: #006666;
+    border-radius: 10px;
+}
+#aboutButton{
+    float: right;
+    margin-right: 175px;
+    margin-top: 275px;
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    color: white;
+    border-radius: 25px;
+    width: 250px;
+    height: 45px;
+}
+
+#aboutButton:hover{
+    color: #006666;
+    transition: 0.8s;
+    background-color: white;
+    border-radius: 25px;
+    opacity: .5;
+}
+
+.projectCard{
+    display: inline-block;
+    height: 320px;
+    width: 320px;
+    grid-column: 1 /span 3;
+    grid-row: 2;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+
+
+.projectCard a{
+    text-decoration: none;
+    font-size: 25px; 
+    color: white;
+}
+
+.infotext{
+    color: white;
+}
+
+#thumbnail21{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 3px;
+    opacity: 0.3;    
+}
+
+#thumbnail21:hover{
+transition: 0.3s;
+opacity: 1;
+}
+
+#thumbnailfb{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 3px;
+    opacity: 0.3; 
+}
+
+#thumbnailfb:hover{
+    transition: 0.3s;
+    opacity: 1; 
+}
+
+#thumbnailbw{
+    height: 300px;    
+    width: 300px;
+    border-radius: 10px;
+    opacity: 0.3;     
+}
+
+#thumbnailbw:hover{
+    transition: 0.3s;
+    opacity: 1;
+}
+
+li{
+    list-style: none;
+    text-align: center;
+}
+
+ul{
+    text-decoration: none; 
+}
+.contact{
+    margin: 45px;
+    grid-column: 1;
+    grid-row: 4;
+}
+
+.input{
+    width: 300px;
+    height: 25px;
+    border: 2px solid #006666;
+    background-color: transparent;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+#subfield{
+    width: 613px;
+    height: 30px;
+    border: 2px solid #006666;
+    background-color: transparent;
+    color: grey;
+    margin: 20px;
+    font-size: 15px;
+}
+
+#msgfield{
+    width: 610px;
+    height:125px;
+    border: 2px solid #006666;
+    background-color: transparent;
+    font-size: 15px;
+}
+
+#formsub{
+    width: 620px;
+    height: 55px;
+    background-color: #006666;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+#name1{
+    text-align: left;
+}
+
+.footer{
+    background-color:#006666;
+    grid-column: 1;
+    grid-row: 5;
+    height: 35px;
+    font-size: 20px;
+    color: white;
+    padding: 15px;
+}
+
+li{
+    text-decoration: none;
+
+}
+
+.headers{
+    text-align: center;
+}
+
+#form{
+    text-align: center;
+}
+
+/****************************************************************************************************/
+

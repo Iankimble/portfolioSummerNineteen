@@ -1,0 +1,232 @@
+body{
+    display: grid;
+    grid-template-columns:auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto; 
+    align-content: center;
+    font-family: 'Lato', sans-serif;
+    background-color: #9cc9c9;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    }
+
+/*nav*/
+    .nav{
+        grid-column: 1 /span 2;
+        grid-row: 1;
+        background-color:#006666;
+        height: 75px;
+        font-size: 25px;
+        font-weight: bold;
+        margin: 5px;
+
+    }
+
+    li a{
+        color: white;
+        text-decoration: none;
+    }
+
+    li{
+        list-style: none;
+    }
+
+    /*Caption*/
+    .caption{
+        font-size: 25px;
+        margin: 25px;
+    }
+
+    /*header*/
+    .header{
+        font-size: 30px;
+        color: white;
+        font-weight: bolder;
+        background-color: #006666;
+        padding: 5px;
+    }
+
+    /*external buttons*/
+    .extBtn{
+        background-color: #2e103f;
+        margin-top: 0px;
+        color: #fed311;
+        border: none;
+        margin-right: 50px;
+        font-size: 25px;
+        border-radius: 25px;
+        width: 175px;
+    }
+
+    .extBtn:hover{
+        background-color: #fed311;
+        color:#2e103f;
+        transition: 0.8s;
+    }
+
+    /* Hero image*/
+    #heroImg{
+        grid-column: 1;
+        grid-row: 1;
+        background-image: url("../assets/80sbg1.jpg");
+        background-position: center;
+        height: 500px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-color: #006666;
+        margin: 5px;
+    }
+
+    /*logo*/
+    #logo21{
+        height: 275px;
+        width: 300px;
+        margin: 10px;
+    }
+
+    #heroText{
+        font-size: 30px;
+        color: white;
+        margin: 10px;
+    }
+
+    .heroCombo{
+        float: left;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+
+    /* Summary */
+    #summary{
+        border-style: solid;
+        border-width: 3px;
+        border-color: #006666;
+        margin: 5px;
+    }
+    
+
+    /*Team Container*/
+    #teamContent{
+        background-color: transparent;
+        padding: 0px;
+        border-style: solid;
+        border-width: 3px;
+        border-color: #006666;
+        margin: 5px;
+    }
+    
+
+    .teamMember{
+        display: inline-block;
+        margin: 5px;
+        margin-top: 20px;
+        background-color: #006666;
+        border-radius: 25px;
+        height: 325px;
+        width: 250px;
+        color: white;
+    }
+    
+    .teamImg{
+        height: 220px;
+        width: 220px;
+        padding: 10px;
+        border-radius: 25px;
+
+    }
+
+
+    /*Tool Container*/
+    #ttContainer{
+    border-style: solid;
+    border-width: 3px;
+    border-color: #006666;
+    margin: 5px;
+    }
+
+    .tool{
+        display: inline-block;
+    }
+
+    .toolImg{
+        height: 150px;
+        width: 150px;
+        padding: 15px;
+    }
+
+    .tech{
+        display: inline-block;
+    }
+
+    .techImg{
+        height: 100px;
+        width: 100px;
+        padding: 15px;
+    }
+    
+    #conceptContainer{
+        border-style: solid;
+        border-width: 3px;
+        border-color: #006666;
+        margin: 5px;
+    }
+    
+
+    .wfimg{
+        height: 250px;
+        width: 250px;
+        padding: 20px;
+    }
+
+    .concept{
+        display: inline-block;
+    }
+
+    #assetContainer{
+        grid-column: 1 span 2;
+        grid-row: 5;
+        margin: 5px;
+        border-style: solid;
+        border-width: 3px;
+        border-color: #006666;
+    }
+
+    
+    #assetSub{
+    display: inline-block;
+    }
+    
+
+    .designImg{
+        height: 225px;
+        width: 250px;
+    }
+
+    #designImg1{
+        height: 550px;
+        width: 800px;
+    }
+
+    #comboContainer{
+        width:500px;
+        grid-column: 1;
+        float: left;
+    }
+
+    #charDesignContainer{
+        grid-column: 2;
+        width: 800px;
+        float: right;
+    }
+
+    .execution{
+        margin: 5px;
+        border-style: solid;
+        border-width: 3px;
+        border-color: #006666;
+    }
+
+    #finalProduct{
+        height: 450px;
+        width: 700px;
+    }

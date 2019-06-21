@@ -1,0 +1,166 @@
+body{
+    display: grid;
+    grid-template-columns:auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto; 
+    align-content: center;
+    font-family: 'Lato', sans-serif;
+    background-color: #9cc9c9;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    }
+
+/*nav*/
+
+    .nav{
+        grid-column: 1 /span 2;
+        grid-row: 1;
+        background-color:#006666;
+        height: 75px;
+        font-size: 25px;
+        font-weight: bold;
+        margin: 5px;
+
+    }
+
+    li a{
+        color: white;
+        text-decoration: none;
+    }
+
+    li{
+        list-style: none;
+    }
+
+/*caption*/
+    .caption{
+        font-size: 25px;
+        margin: 25px;
+    }
+
+
+    #fstbrkLogo{
+        height: 350px;
+        width: 350px;
+    }
+
+    /*header*/
+    .header{
+        font-size: 30px;
+        color: white;
+        font-weight: bolder;
+        background-color: #006666;
+        padding: 5px;
+    }
+
+        /*external buttons*/
+        .extBtn{
+            background-color: red;
+            margin-top: 0px;
+            color: #fed311;
+            border: none;
+            margin-right: 50px;
+            font-size: 25px;
+            border-radius: 25px;
+            width: 175px;
+        }
+
+        .extBtn:hover{
+            background-color: white;
+            color:orangered;
+            transition: 0.8s;
+        }
+    
+.nav{
+    grid-column: 1 /span 2;
+    grid-row: 1;
+    background-color: #006666;
+}
+
+#heroImg{
+    grid-column: 1 /span 2;
+    grid-row: 2;
+    background-image: url("../assets/fstbrklandingImg.jpg");
+    background-position: center;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #006666;
+    margin: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.summaryContainer{
+    grid-column: 1 /span 2;
+    grid-row: 3;
+}
+
+.mainToolContainer{
+    grid-column: 1 /span 2;
+    grid-row: 4;
+}
+
+.tool{
+    display: inline-block;
+}
+
+.toolImg{
+    height: 150px;
+    width: 150px;
+    padding: 15px;
+}
+
+.tech{
+    display: inline-block;
+}
+
+.techImg{
+    height: 100px;
+    width: 100px;
+    padding: 15px;
+}
+
+.conceptContainer{
+    grid-column: 1 /span 2;
+    grid-row: 5;
+}
+
+.wfimg{
+    height: 450px;
+    width: 800px;
+    padding: 20px;
+}
+
+.assetContainer{
+    grid-column: 1 /span 2;
+    grid-row: 6;
+}
+
+.designImg{
+    height:500px;
+    width:900px;
+    margin:20px;
+}
+
+.csContainer{
+    grid-column: 1 /span 2;
+    grid-row: 7;
+}
+
+
+.snippet{
+    height:400px;
+    width:600px;
+}
+
+.productContainer{
+    grid-column: 1 /span 2;
+    grid-row: 8;
+}
+
+.fbFinal{
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+}

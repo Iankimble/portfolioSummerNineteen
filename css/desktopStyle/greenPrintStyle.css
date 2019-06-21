@@ -1,0 +1,156 @@
+body{
+    display: grid;
+    grid-template-columns:auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto; 
+    align-content: center;
+    font-family: 'Lato', sans-serif;
+    background-color: #9cc9c9;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    }
+
+    /*nav*/
+
+.nav{
+    grid-column: 1 /span 2;
+    grid-row: 1;
+    background-color:#006666;
+    height: 75px;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 5px;
+
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+#heroImg{
+    grid-column: 1 /span 2;
+    grid-row: 2;
+    background-image: url("../assets/greenPrintLangiImg1.jpg");
+    background-position: center;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #006666;
+    margin: 5px;
+}
+
+.summaryContainer{
+    grid-column: 1 /span 2;
+    grid-row: 3;
+
+}
+
+.caption{
+    font-size: 25px;
+    margin: 25px;
+}
+
+    /*header*/
+    .header{
+        font-size: 30px;
+        color: white;
+        font-weight: bolder;
+        background-color: #006666;
+        padding: 5px;
+    }
+
+    .heroCombo{
+        margin-top: 350px;
+        float: right;
+        margin-right: 50px;
+    }
+
+/*external buttons*/
+    .extBtn{
+        background-color: #7500ff;
+        margin-top: 0px;
+        color: #fea711;
+        border: none;
+        margin-right: 50px;
+        font-size: 25px;
+        border-radius: 25px;
+        width: 175px;
+    }
+    
+    .extBtn:hover{
+        background-color: #04ca1d;
+        color:#7f00ff;
+        transition: 0.8s;
+    }
+
+
+/* tools and tech*/    
+.mainToolContainer{
+    grid-column: 1 /span 2;
+    grid-row: 4;
+}
+
+.tool{
+    display: inline-block;
+}
+
+.toolImg{
+    height: 150px;
+    width: 150px;
+    padding: 15px;
+}
+
+.tech{
+    display: inline-block;
+}
+
+.techImg{
+    height: 100px;
+    width: 100px;
+    padding: 15px;
+}
+
+/*concept*/
+.conceptContainer{
+    grid-column: 1 /span 2;
+    grid-row: 5;
+    font-size: 30px;
+}
+
+.wfimg{
+    height:500px;
+    width: 900px;   
+
+}
+
+.assetContainer{
+    grid-column: 1 /span 2;
+    grid-row: 6;
+    font-size: 30px;
+}
+
+.csContainer{
+    grid-column: 1 /span 2;
+    grid-row: 7;
+}
+
+.designImg{
+    height: 500px;
+    width: 900px;
+}
+
+.productContainer{
+    grid-column: 1 /span 2;
+    grid-row: 8;
+}
+
+.gpFinal{
+    height: 400px;
+    width: 400px;
+    margin: 20px;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ian Kimble | Designer</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/mobileStyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="./script/script.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Lato:100,300&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <!-- Hero Image-->
+    <div class="heroImage">
+        <h1 id="nameHeader"> Ian Kimble</h1>
+        <h3 id="titleHeader"> Designer</h3>
+        <div id="externalLinks">
+            <ul>
+                <li><img class="exIcons" src="./css/assets/linkedin_button_fixedWhite.png" id="linkedIn"></li>
+                <li><img class="exIcons" src="./css/assets/github_button_fixedWhite.png" id="github"></li>
+                <li><img class="exIcons" src="./css/assets/behance_button_fixedWhite.png" id="behance"></li>
+            </ul>
+        </div>
+        <button id="aboutButton"> More about me &rarr;</button>
+    </div>
+
+    <!-- Projects-->
+
+    <ul class="projectContainer">
+        <div class="headers">
+            <h1 class="subheaders">Projects</h1>
+        </div>
+
+        <li class="projectCard" id="v21card">
+            <div class="infocontainer">
+                <img id="thumbnailbw" src="./css/assets/21ViceWeb.png"><br>
+                <a id="vtxt" href="21vice.html">21 Vice</a>
+                <p class="infotext">80s themed multiplayer Blackjack game</p>
+            </div>
+        </li>
+
+        <li class="projectCard" id="fb1card">
+            <div class="infocontainer">
+                <img id="thumbnailbw" src="./css/assets/newFstBrkWeb.png"><br>
+                <a id="fbtxt" href="fstbrk1.html">Fst Brk</a>
+                <p class="infotext">Basketball themed rock, paper, scicors game.</p>
+            </div>
+        </li>
+
+        <li class="projectCard" id="greenPrintcard">
+            <div class="infocontainer">
+                <img id="thumbnailbw" src="./css/assets/GreenprintLogoB.png"><br>
+                <a id="bwtxt" href="greenPrint.html"> Green Print</a>
+                <p class="infotext">Bugdgeting app that uses the 50,30, 20 rule.</p>
+            </div>
+        </li>
+
+        <li class="projectCard" id="blackWeathercard">
+            <div class="infocontainer">
+                <img id="thumbnailbw" src="./css/assets/blackuweather_logo.png"><br>
+                <a id="bwtxt" href=""> Black-U-Weather</a>
+                <p class="infotext"> Weather application that returns current weather with an expressive gif.</p>
+            </div>
+        </li>
+
+        <li class="projectCard" id="yahrncard">
+            <div class="infocontainer">
+                <img id="thumbnailbw" src="./css/assets/yahrnbg.png"><br>
+                <a id="bwtxt" href=""> YAHRN Art + Coffe </a>
+                <p class="infotext"> Art gallery and beverage store<br> business page </p>
+            </div>
+        </li>
+
+        <li class="projectCard" id="bwcard">
+            <div class="infocontainer">
+                <img id="thumbnailbw" src="./css/assets/nbaTradingCardGame.png"><br>
+                <a id="bwtxt" href=""> NBA trading Card Concept</a>
+                <p class="infotext"> fictional reimaging of nikes most celebrated brands</p>
+            </div>
+        </li>
+
+    </ul>
+
+    <!-- Contact-->
+    <div class="contact">
+        <div class="headers">
+            <h1 class="subheaders">Let's Connects</h1>
+        </div>
+        <form action="./index.html" id="form">
+
+            <label for="name1"></label>
+            <input type="text" name="name1" class="input" id="name1" placeholder=" Name">
+
+            <label for="name"></label>
+            <input type="text" name="lastname" class="input" placeholder=" Email Address">
+
+            <br><br>
+            <select id="subfield" name="subject">
+                <option value="general inquiry"> Select Subject</option>
+                <option value="general inquiry"> General Inquiry</option>
+                <option value="web development inquiry"> Web Development Inquiry</option>
+                <option value="graphic design inquiry"> Graphic Design Inquiry</option>
+            </select>
+
+            <br><br>
+            <textarea placeholder=" Your message..." id="msgfield"></textarea>
+
+            <br><br>
+            <input type="submit" value="Send" id="formsub">
+
+        </form>
+    </div>
+
+    <!-- Footer-->
+    <div class="footer">
+        <div class="headers">
+            &copy 2019 Ian Kimble, All rights reserved.
+        </div>
+    </div>
+
+</body>
+
+</html>
